@@ -14,7 +14,7 @@ This repository contains the LTspice design and simulation of a two-stage cascad
   * Emitter Voltage = 0.1 Vdd (1.2V)
 
 ## Circuit Topology
-![Amplifier Schematic](images/schematic.png)
+![Amplifier Schematic](images/Schematic.png)
 
 The circuit utilizes two Common-Emitter (CE) amplifier stages cascaded in series. 
 * **Active Components:** The design uses the standard 2N2222 BJT model for both stages to ensure realistic simulation of parasitic capacitances.
@@ -35,7 +35,7 @@ The circuit utilizes two Common-Emitter (CE) amplifier stages cascaded in series
 * **Stage 2 Emitter Bypass (C3):** 1000 µF
 
 ## Simulation Results (AC Analysis)
-![Frequency Response](images/frequency_response.png)
+![Frequency Response](images/FreqResponse.png)
 
 An AC sweep from 1 Hz to 1 GHz was performed to evaluate the amplifier's frequency response. The resulting Bode plot demonstrates a textbook bandpass characteristic:
 
