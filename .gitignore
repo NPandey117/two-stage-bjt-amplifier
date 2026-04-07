@@ -1,1 +1,7 @@
 
+*.raw
+*.op.raw
+*.log
+*.net
+*.bck
+*.swp
